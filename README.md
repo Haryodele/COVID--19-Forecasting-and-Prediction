@@ -1,1 +1,2 @@
 # COVID--19-Forecasting-and-Prediction
+This project applies time series forecasting techniques and machine learning models to predict COVID-19 daily cases using the Our World in Data dataset. Models developed include ARIMA, Prophet, and XGBoost, evaluated with MAE and RMSE metrics. Visualizations compare predicted vs. actual cases, showcasing how statistical and machine learning models can be used to forecast complex real-world.
