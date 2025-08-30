@@ -10,7 +10,7 @@ library(zoo)  # For rolling averages
 
 
 # Load dataset
-mydata <- read_excel("C:/Users/Agba Xchanger/Documents/Datasets/covid-19_dataset.xlsx")
+mydata <- read_excel("covid-19_dataset.xlsx", sheet="Sheet1")
 
 # Remove unnecessary columns
 data_main <- mydata %>%
@@ -287,4 +287,5 @@ ggplot(comparison_df, aes(x = date)) +
   )) +
   
   theme_minimal()
+
 
